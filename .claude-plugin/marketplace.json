@@ -1,0 +1,33 @@
+{
+  "name": "claudecode-mods",
+  "owner": {
+    "name": "almost99",
+    "url": "https://github.com/almost99"
+  },
+  "metadata": {
+    "description": "Claude Code plugins and mods reviewed for safety and privacy, each locked to the exact version that was reviewed. See reviews/ for each report."
+  },
+  "plugins": [
+    {
+      "name": "cache-tax",
+      "description": "Keeps the 1-hour prompt cache warm during breaks and stops a cold send once with its estimated cost. Pings cost tokens. Reviewed 2026-10-15, see reviews/cache-tax.md.",
+      "category": "mod",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/karanb192/cache-tax.git",
+        "sha": "06cac47ec125a41a4aeeb78a6b006bec8cc6d6ed"
+      }
+    },
+    {
+      "name": "savvy-progress",
+      "description": "Progress bar above the prompt and an Agents panel (/agents-info) showing subagents with model, cost and time. Reviewed 2026-10-15, see reviews/savvy-progress.md.",
+      "category": "mod",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JohnnyVizz/claude-kit.git",
+        "path": "plugins/savvy-progress",
+        "sha": "c871c153ead54ad9547cc717d0f3e5a676c73986"
+      }
+    }
+  ]
+}
